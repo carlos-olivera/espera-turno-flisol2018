@@ -98,7 +98,6 @@ install("routepolicy", "meteor/routepolicy/main.js");
 install("boilerplate-generator", "meteor/boilerplate-generator/generator.js");
 install("webapp-hashing");
 install("webapp", "meteor/webapp/webapp_server.js");
-install("autopublish");
 install("ddp-server");
 install("ddp");
 install("allow-deny");
@@ -114,6 +113,8 @@ install("shim-common", "meteor/shim-common/server.js");
 install("es5-shim", "meteor/es5-shim/server.js");
 install("shell-server", "meteor/shell-server/main.js");
 install("twbs:bootstrap");
+install("tmeasday:check-npm-versions", "meteor/tmeasday:check-npm-versions/check-npm-versions.js");
+install("react-meteor-data", "meteor/react-meteor-data/react-meteor-data.jsx");
 install("livedata");
 install("hot-code-push");
 install("launch-screen");
@@ -445,7 +446,68 @@ function _objectSpread(target) {
 module.exports = _objectSpread;
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-}}}}}}},{
+},"extends.js":function(require,exports,module){
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                 //
+// node_modules/@babel/runtime/helpers/builtin/extends.js                                                          //
+//                                                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                                   //
+function _extends() {
+  module.exports = _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
+
+module.exports = _extends;
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+}}}}},"react":{"package.json":function(require,exports){
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                 //
+// node_modules/react/package.json                                                                                 //
+//                                                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                                   //
+exports.name = "react";
+exports.version = "16.3.2";
+exports.main = "index.js";
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+},"index.js":function(require,exports,module){
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                 //
+// node_modules/react/index.js                                                                                     //
+//                                                                                                                 //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                                                                                                                   //
+'use strict';
+
+if (process.env.NODE_ENV === 'production') {
+  module.exports = require('./cjs/react.production.min.js');
+} else {
+  module.exports = require('./cjs/react.development.js');
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+}}}},{
   "extensions": [
     ".js",
     ".json"

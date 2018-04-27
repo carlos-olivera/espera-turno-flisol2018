@@ -7,12 +7,15 @@ import NewClient from './components/new_client';
 
 import { Clients } from '../imports/collections/clients';
 
+import ClientList from './components/clients_list';
+
 const App = () => {
 
 	return (
 			<div>
 				<Header />
 				<NewClient />
+				<ClientList />
 			</div>
 		);
 };

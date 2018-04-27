@@ -154,9 +154,6 @@
       "path": "packages/webapp.js"
     },
     {
-      "path": "packages/autopublish.js"
-    },
-    {
       "node_modules": "npm/node_modules/meteor/ddp-server/node_modules",
       "sourceMap": "packages/ddp-server.js.map",
       "path": "packages/ddp-server.js"
@@ -210,6 +207,15 @@
     },
     {
       "path": "packages/twbs_bootstrap.js"
+    },
+    {
+      "node_modules": "npm/node_modules/meteor/tmeasday_check-npm-versions/node_modules",
+      "sourceMap": "packages/tmeasday_check-npm-versions.js.map",
+      "path": "packages/tmeasday_check-npm-versions.js"
+    },
+    {
+      "sourceMap": "packages/react-meteor-data.js.map",
+      "path": "packages/react-meteor-data.js"
     },
     {
       "path": "packages/livedata.js"

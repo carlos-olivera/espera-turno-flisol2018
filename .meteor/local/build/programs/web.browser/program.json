@@ -60,9 +60,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/packages/modules.js?hash=0cc8456380fb75057fc5a8ee8fc893f5ba1c9c1b",
-      "size": 1720204,
-      "hash": "0cc8456380fb75057fc5a8ee8fc893f5ba1c9c1b"
+      "url": "/packages/modules.js?hash=d9d9974905be9dd4a73cbc6ce68ad637f7d9b56e",
+      "size": 1726902,
+      "hash": "d9d9974905be9dd4a73cbc6ce68ad637f7d9b56e"
     },
     {
       "path": "packages/ecmascript-runtime.js",
@@ -445,15 +445,6 @@
       "hash": "36a44317c7503a912dd277b1a73dbd5e3c8cda05"
     },
     {
-      "path": "packages/autopublish.js",
-      "where": "client",
-      "type": "js",
-      "cacheable": true,
-      "url": "/packages/autopublish.js?hash=ee18a5df3846f23f6eb57c7a10c699edd8a317b5",
-      "size": 673,
-      "hash": "ee18a5df3846f23f6eb57c7a10c699edd8a317b5"
-    },
-    {
       "path": "packages/jquery.js",
       "where": "client",
       "type": "js",
@@ -470,6 +461,28 @@
       "url": "/packages/twbs_bootstrap.js?hash=9ce2be5568dddbf86b5c6732b75ce4a038d39c56",
       "size": 70706,
       "hash": "9ce2be5568dddbf86b5c6732b75ce4a038d39c56"
+    },
+    {
+      "path": "packages/tmeasday_check-npm-versions.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/tmeasday_check-npm-versions.js?hash=95fa42758264e61292a0ac664409277ab5a9f02a",
+      "sourceMap": "packages/tmeasday_check-npm-versions.js.map",
+      "sourceMapUrl": "/packages/95fa42758264e61292a0ac664409277ab5a9f02a.map",
+      "size": 38667,
+      "hash": "95fa42758264e61292a0ac664409277ab5a9f02a"
+    },
+    {
+      "path": "packages/react-meteor-data.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/react-meteor-data.js?hash=afec2141b3e1df6b75af29b69618965be581b664",
+      "sourceMap": "packages/react-meteor-data.js.map",
+      "sourceMapUrl": "/packages/afec2141b3e1df6b75af29b69618965be581b664.map",
+      "size": 13935,
+      "hash": "afec2141b3e1df6b75af29b69618965be581b664"
     },
     {
       "path": "packages/underscore.js",
@@ -604,20 +617,20 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/global-imports.js?hash=e00fccbcbee1aabaa1c38cc2f9e8470535546ab4",
-      "size": 1000,
-      "hash": "e00fccbcbee1aabaa1c38cc2f9e8470535546ab4"
+      "url": "/app/global-imports.js?hash=854d4c2aa7a66a124a83cdb82c644bad3f28bd25",
+      "size": 1064,
+      "hash": "854d4c2aa7a66a124a83cdb82c644bad3f28bd25"
     },
     {
       "path": "app/app.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/app.js?hash=dbf9dc84f47cae04d10b5208b30589e0f0baff1f",
+      "url": "/app/app.js?hash=a2f979d4d77504899a54cbf9deb2ab9ac5e08ade",
       "sourceMap": "app/app.js.map",
-      "sourceMapUrl": "/app/dbf9dc84f47cae04d10b5208b30589e0f0baff1f.map",
-      "size": 10056,
-      "hash": "dbf9dc84f47cae04d10b5208b30589e0f0baff1f"
+      "sourceMapUrl": "/app/a2f979d4d77504899a54cbf9deb2ab9ac5e08ade.map",
+      "size": 17806,
+      "hash": "a2f979d4d77504899a54cbf9deb2ab9ac5e08ade"
     },
     {
       "path": "merged-stylesheets.css",
@@ -697,7 +710,7 @@
       "path": "head.html",
       "where": "internal",
       "type": "head",
-      "hash": "e578fbdef1b7e370aaeb17c58dab76d48c0f46b7"
+      "hash": "048ba0e802e0eeac253056208d6d10dfab383a5e"
     }
   ]
 }

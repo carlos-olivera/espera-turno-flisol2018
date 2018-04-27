@@ -3,13 +3,18 @@ import { Match, check } from 'meteor/check';
 
 Meteor.methods({
 
-	'clients.insert': function(newCI) {
+	'clients.insert': function(args) {
 
-		var isnum = /^\d+$/.test(newCI);
+		var isnum = /^\d+$/.test(args.ci);
+		var isvalid = (args.qr != "No asignado");
+
+		console.log(args);
+
 		check(isnum,true);
+		check(isvalid,true);
 
 
-		Clients.insert({});
+		Clients.insert(args);
 
 	}
 
